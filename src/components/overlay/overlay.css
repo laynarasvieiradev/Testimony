@@ -1,0 +1,62 @@
+.overlay-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9999999c;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1000;
+  animation: overlayFadeIn 0.3s ease-out;
+}
+
+.overlay-content {
+  max-width: 500px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  animation: overlaySlideUp 0.3s ease-out;
+}
+
+.overlay-children {
+  padding: 30px;
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes overlaySlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay-backdrop {
+    padding: 10px;
+  }
+  
+  .overlay-content {
+    max-width: 100%;
+  }
+  
+  .overlay-children {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-children {
+    padding: 15px;
+  }
+}
