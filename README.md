@@ -17,4 +17,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## 🌐 **Live Demo**
 
-🚀 **See the project in action:** [https://laynarasvieiradev.github.io/signup](https://laynarasvieiradev.github.io/signup)
+🚀 **See the project in action:** [https://laynarasvieiradev.github.io/Testimony/](https://laynarasvieiradev.github.io/Testimony/)
