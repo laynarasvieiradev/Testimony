@@ -22,7 +22,7 @@ const Testimony = ({
               onDelete(testimonyItem.id)
             }}
           >
-            <img src="../icons/remove.svg" alt="Remove button" />
+            <img src="Testimony/icons/remove.svg" alt="Remove button" />
           </button>
          <button
            className="generic-button-icon"
@@ -31,7 +31,7 @@ const Testimony = ({
               onEdit(testimonyItem)
             }}
           >
-            <img  src="../icons/edit.svg" alt="Edit button" />
+            <img  src="Testimony/icons/edit.svg" alt="Edit button" />
           </button>
        </div>
        </div>
